@@ -1,0 +1,60 @@
+.logo-pad {
+  position: absolute;
+  top: -170px;
+  left: 20px;
+  z-index: 1;
+  height: 500px;
+}
+
+.top-nav-pad {
+  height: 150px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.paint-pad {
+  position: absolute;
+  z-index: 0;
+  width: 800px;
+  height: 500px;
+  right: 70%;
+  top: -200px;
+}
+
+.sign {
+  font-size: 20pt;
+  font-weight: 400;
+  position: absolute;
+  left: 240px;
+  z-index: 3;
+}
+
+.view-order-pad {
+  padding: 15px 30px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 15pt;
+  font-weight: 600;
+  border: 1px solid black;
+  border-radius: 6px;
+  position: absolute;
+  right: 2.5rem;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.capsule-container {
+  max-width: 400px;
+  width: 100%;
+  height: 100%;
+}
+
+.vendor-logo-link {
+  z-index: 99;
+  top: 2rem;
+}

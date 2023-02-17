@@ -1,0 +1,38 @@
+.confirm-modal {
+  opacity: 1 !important;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #e2e2e2;
+  width: 90%;
+  z-index: 10;
+  border: black 1px solid;
+}
+
+.modal-desc {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  font-weight: bold;
+}
+
+.modal-buttons {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.modal-buttons button {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  background: #ffd73f;
+  border: none;
+  padding: 0.25rem 2rem;
+  border-radius: 9999px;
+  cursor: pointer;
+}

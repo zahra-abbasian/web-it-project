@@ -1,0 +1,52 @@
+.item-row {
+  display: flex;
+  width: 100%;
+}
+
+.right-column {
+  flex: 6;
+  display: flex;
+  align-items: center;
+}
+
+.left-column {
+  flex: 1;
+}
+
+.order-rating {
+  font-size: 2rem;
+}
+.header {
+  padding-left: 2%;
+}
+
+.status-label {
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+
+.status-info {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.account-button-desktop {
+  margin-right: 2.5rem;
+  padding: 10px 20px;
+  font-size: 1rem;
+  position: unset;
+}
+
+.container {
+  max-width: 95%;
+  margin: 10px auto;
+  overflow: auto;
+  min-height: 80px;
+  border-bottom: 1px solid rgb(136, 136, 136);
+  padding: 20px;
+  border-radius: 0px;
+}
+
+.no-orders {
+  text-align: center;
+}

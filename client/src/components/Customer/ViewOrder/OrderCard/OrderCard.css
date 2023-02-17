@@ -1,0 +1,66 @@
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 1rem 0rem;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.order-item-description {
+  position: relative;
+  display: flex;
+  top: 1rem;
+  margin: 1rem;
+  flex: 1;
+}
+
+.order-item-row {
+  position: absolute;
+  bottom: 1rem;
+  display: flex;
+  width: 100%;
+}
+
+.order-item-status {
+  display: flex;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #ffb701;
+}
+
+.order-item h2 {
+  color: #3a3a3a;
+  font-size: 1rem;
+  margin-right: auto;
+  max-width: 160px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.order-item-price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  padding: 0.5rem;
+  border-radius: 12px;
+  margin-left: auto;
+  visibility: hidden;
+}
+
+@media (min-width: 760px) {
+  .order-item-description {
+    align-items: center;
+    flex: 1;
+  }
+
+  .order-item-price {
+    font-size: 1.25rem;
+    padding: 0.5rem 1.5rem;
+    visibility: visible;
+  }
+}

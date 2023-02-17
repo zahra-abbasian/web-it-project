@@ -1,0 +1,189 @@
+.top-box {
+  position: absolute;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+  top: 0px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.cancelled-order {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  text-transform: uppercase;
+  font-size: 20px;
+  transform: translate(-50%, -50%);
+}
+
+/* button */
+.black-button {
+  padding: 5px 10px;
+  background-color: black;
+  color: white;
+  width: 150px;
+  height: 50px;
+  font-size: 1em;
+  font-weight: 600;
+  border: 1px solid black;
+  border-radius: 6px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  transition: 0.4s;
+}
+
+.trigger-button {
+  padding: 5px 10px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(8, 8, 8);
+  width: 150px;
+  height: 50px;
+  font-size: 1em;
+  font-weight: 600;
+  border: 1px solid black;
+  border-radius: 6px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  transition: 1s;
+}
+
+.heading-out {
+  top: 30%;
+  position: absolute;
+  right: 10%;
+}
+
+.ready {
+  bottom: 4rem;
+  position: absolute;
+  right: 23%;
+}
+
+.picked-up {
+  bottom: 4em;
+  position: absolute;
+  right: 50px;
+}
+
+.back {
+  position: absolute;
+  left: 1.5rem;
+  top: 18%;
+  font-family: roboto, sans-serif;
+  font-size: 1.7rem;
+  font-weight: 700;
+  z-index: 4;
+  transform: 0.4;
+}
+
+/* customer */
+.customer-container {
+  position: absolute;
+  left: 3rem;
+  top: 28%;
+  font-family: italic roboto, sans-serif;
+  z-index: 6;
+  font-size: 2em;
+}
+
+.past-time {
+  display: inline;
+  position: relative;
+  left: auto;
+  width: 35%;
+  font-family: roboto, sans-serif;
+  font-size: 0.7em;
+}
+/* price */
+
+.price-position {
+  position: absolute;
+  left: 5%;
+  top: 75%;
+  font-family: roboto, sans-serif;
+  z-index: 6;
+  font-size: 1em;
+}
+
+.outstanding-order-price {
+  position: relative;
+  font-family: roboto, sans-serif;
+  top: 50%;
+  left: 0px;
+  z-index: 3;
+  font-size: 5em;
+  font-weight: 500;
+}
+
+.discount-apply {
+  position: absolute;
+  font-family: roboto, sans-serif;
+  z-index: 3;
+  font-size: 0.8em;
+  font-weight: 700;
+  color: red;
+}
+
+.discount-sign {
+  position: absolute;
+  left: 6em;
+  z-index: 3;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.clock-container {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  right: 10%;
+  top: 30%;
+  border-radius: 100%;
+  display: flex;
+  border: 0.1rem solid;
+  align-items: center;
+  justify-content: center;
+}
+
+.time {
+  position: relative;
+  font-family: roboto, sans-serif;
+  top: 0rem;
+  left: 0rem;
+  z-index: 3;
+  font-size: 4em;
+}
+
+/* item-section */
+.outstanding-order-item-amount {
+  position: relative;
+  font-size: large;
+  font-weight: 500;
+}
+
+.item-section {
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 5%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 400px;
+  height: 25%;
+  max-height: 18.5rem;
+}
+
+.outstanding-order-title {
+  position: absolute;
+  top: 44%;
+  left: 5%;
+  font-family: roboto, sans-serif;
+  font-size: 2em;
+  width: 400px;
+}
+
+.snacks-container {
+  width: 100rem;
+  position: absolute;
+  font-family: roboto, sans-serif;
+  font-size: 1em;
+}

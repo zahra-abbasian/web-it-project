@@ -1,0 +1,28 @@
+.order-date {
+  display: flex;
+  flex-direction: column;
+  width: 5.5rem;
+  height: 5.5rem;
+  background-color: #2a2a2a;
+  color: white;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.order-date-month {
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.order-date-year {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.order-date-day {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}

@@ -1,0 +1,60 @@
+.order-list-container {
+  padding: 0.001rem 1rem;
+  background-color: #fad75e;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  text-align: center;
+}
+.orders-list {
+  list-style: none;
+  padding: 0;
+}
+
+.orders-list-no-order {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.h2 {
+  text-transform: uppercase;
+}
+
+.back-container {
+  position: absolute;
+  left: 1.5rem;
+  top: 130px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.back-button {
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+  cursor: pointer;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+@media (min-width: 960px) {
+  .back-container {
+    position: absolute;
+    left: 1.5rem;
+    top: 130px;
+  }
+
+  .back-button {
+    font-size: 1.25rem;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+}

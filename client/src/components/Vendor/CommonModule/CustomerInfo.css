@@ -1,0 +1,9 @@
+/* customer-container */
+.customer-container {
+  position: absolute;
+  left: 5rem;
+  top: 33%;
+  font-family: italic roboto, sans-serif;
+  z-index: 6;
+  font-size: 2em;
+}

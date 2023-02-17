@@ -1,0 +1,52 @@
+.order-title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 2rem 1rem 0.75rem 1rem;
+  border-bottom: 1px solid #707070;
+  font-weight: 500;
+  position: relative;
+}
+
+.marker {
+  margin-right: 0.5rem;
+}
+
+.location-text {
+  align-self: flex-end;
+  justify-self: flex-start;
+}
+
+.location-details {
+  margin-top: 1rem;
+  padding: 0 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.time-remaining {
+  position: absolute;
+  right: 1rem;
+}
+
+.time-title-area {
+  display: flex;
+}
+
+@media (max-width: 320px) {
+  .order-title {
+    font-size: 14px;
+    align-items: center;
+  }
+
+  .location-text {
+    align-self: flex-end;
+  }
+
+  .time-remaining {
+    align-self: flex-end;
+  }
+}

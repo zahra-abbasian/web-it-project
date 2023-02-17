@@ -1,0 +1,74 @@
+.outstanding-order-list-container {
+  padding: 0.001rem 1rem;
+  max-width: 98%;
+  text-align: center;
+}
+
+.right-filler {
+  flex: 1.35;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.list-title {
+  display: flex;
+  align-items: left;
+  font-size: 2rem;
+  padding: 2rem 1rem 0.75rem 1rem;
+  /* justify-content: space-between; */
+  font-weight: 500;
+  position: relative;
+}
+
+.list-label {
+  position: absolute;
+  right: 20%;
+}
+
+.ready-label{
+  margin-top: 10px;
+  font-size: 1.5rem;
+  margin-right: 10rem;;
+}
+
+.title-text {
+  align-self: flex-end;
+  justify-self: flex-start;
+  font-size: 2.25rem;
+}
+
+.view-completed {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+  border: 1px solid black;
+  border-radius: 6px;
+  position: absolute;
+  right: 0rem;
+  box-shadow: 0px 2px 2px rgb(0 0 0 / 20%);
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.orders-list {
+  box-sizing: 0;
+}
+
+.go-to-order {
+  position: absolute;
+  height: 6em;
+  width: 70%;
+  display: flex;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.orders-list-no-order{
+  align-self: flex-end;
+  justify-self: flex-start;
+  font-size: 2.25rem;
+}
